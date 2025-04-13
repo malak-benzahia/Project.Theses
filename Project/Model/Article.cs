@@ -8,5 +8,6 @@ namespace Project.Model
 {
     class Article
     {
+        private string title;
     }
 }
