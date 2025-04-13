@@ -1,0 +1,19 @@
+﻿<Application x:Class="Project.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Project"
+             xmlns:customControls="clr-namespace:Project.view.CustomControl"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/view/Styles/SearchBarStyle.xaml"/>
+                <ResourceDictionary Source="/view/Styles/PrimaryButton.xaml"/>
+                <ResourceDictionary Source="/view/Styles/secondaryButton.xaml"/>
+                <ResourceDictionary Source="/view/Styles/tertiaryButton.xaml"/>
+                <ResourceDictionary Source="/Themes/Generic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

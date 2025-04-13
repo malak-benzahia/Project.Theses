@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>False</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="view\Resources\chevron-right %281%29.png" />
+    <None Remove="view\Resources\chevron-right.png" />
+    <None Remove="view\Resources\chevron-small-down.png" />
+    <None Remove="view\Resources\dummy.jpg" />
+    <None Remove="view\Resources\group.png" />
+    <None Remove="view\Resources\home.png" />
+    <None Remove="view\Resources\istockphoto-1389348844-612x612.jpg" />
+    <None Remove="view\Resources\logo.png" />
+    <None Remove="view\Resources\logoTheses.png" />
+    <None Remove="view\Resources\question.png" />
+    <None Remove="view\Resources\search.png" />
+    <None Remove="view\Resources\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Themes\Generic.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Themes\Generic.xaml" />
+    <Resource Include="view\Resources\chevron-right (1).png" />
+    <Resource Include="view\Resources\chevron-right.png" />
+    <Resource Include="view\Resources\chevron-small-down.png" />
+    <Resource Include="view\Resources\dummy.jpg" />
+    <Resource Include="view\Resources\group.png" />
+    <Resource Include="view\Resources\home.png" />
+    <Resource Include="view\Resources\istockphoto-1389348844-612x612.jpg" />
+    <Resource Include="view\Resources\logo.png" />
+    <Resource Include="view\Resources\logoTheses.png" />
+    <Resource Include="view\Resources\question.png" />
+    <Resource Include="view\Resources\search.png" />
+    <Resource Include="view\Resources\user.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
